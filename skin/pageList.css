@@ -1,0 +1,77 @@
+.pageList {
+    margin-top:60px;
+    font-size:1em;
+    width:600px;
+}
+.pageList table {
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:100%;
+}
+.pageList table td {
+    padding:0;
+    white-space:nowrap;
+    text-align:center;
+}
+.pageList span {
+    display:block;
+    padding:3px 0;
+    color:#fff;
+}
+.pageList span strong,
+.pageList span a {
+    padding:2px 6px;
+}
+.pageList span strong {
+    background:#ff6c24;
+    font-style:normal;
+    font-weight:normal; 
+}
+.pageList .scroll_bar {
+    width:100%; height:20px;
+    position:relative;
+    margin-top:10px; 
+}
+.pageList .scroll_trough {
+    width:100%; height:3px;
+    background:#ccc;
+    overflow:hidden;
+}
+.pageList .scroll_thumb {
+    position:absolute;
+    z-index:2;
+    width:0; height:3px;
+    top:0; left:0;
+    font-size:1px;
+    background:#363636;
+}
+.pageList .scroll_knob {
+    position:absolute;
+    top:-5px; left:50%;
+    margin-left:-10px;
+    width:20px; height:20px;
+    overflow:hidden;
+    background:url(/wp-content/plugins/pagelist/skin/slider.gif) no-repeat 50% 50%;
+    cursor:pointer; cursor:hand;
+}
+.pageList .current_page_mark {
+    position:absolute;
+    z-index:1;
+    top:0; left:0;
+    width:0; height:3px;
+    overflow:hidden;
+    background:#ff6c24;
+}
+
+.fullsize .scroll_thumb {
+    display:none;
+}
+
+
+.pageList_pages {
+    width:600px;
+    text-align:right;
+    font-size:0.8em; 
+    color:#808080;
+    margin-top:-10px; 
+}
